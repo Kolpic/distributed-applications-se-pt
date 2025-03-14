@@ -1,0 +1,16 @@
+C:\Users\Arnout\Downloads\SI_ProjectManagementAPI\Common\bin\Debug\net6.0\Common.deps.json
+C:\Users\Arnout\Downloads\SI_ProjectManagementAPI\Common\bin\Debug\net6.0\Common.runtimeconfig.json
+C:\Users\Arnout\Downloads\SI_ProjectManagementAPI\Common\bin\Debug\net6.0\Common.dll
+C:\Users\Arnout\Downloads\SI_ProjectManagementAPI\Common\bin\Debug\net6.0\Common.pdb
+C:\Users\Arnout\Downloads\SI_ProjectManagementAPI\Common\obj\Debug\net6.0\Common.csproj.AssemblyReference.cache
+C:\Users\Arnout\Downloads\SI_ProjectManagementAPI\Common\obj\Debug\net6.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arnout\Downloads\SI_ProjectManagementAPI\Common\obj\Debug\net6.0\Common.AssemblyInfoInputs.cache
+C:\Users\Arnout\Downloads\SI_ProjectManagementAPI\Common\obj\Debug\net6.0\Common.AssemblyInfo.cs
+C:\Users\Arnout\Downloads\SI_ProjectManagementAPI\Common\obj\Debug\net6.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\Arnout\Downloads\SI_ProjectManagementAPI\Common\obj\Debug\net6.0\Common.dll
+C:\Users\Arnout\Downloads\SI_ProjectManagementAPI\Common\obj\Debug\net6.0\refint\Common.dll
+C:\Users\Arnout\Downloads\SI_ProjectManagementAPI\Common\obj\Debug\net6.0\Common.pdb
+C:\Users\Arnout\Downloads\SI_ProjectManagementAPI\Common\obj\Debug\net6.0\Common.genruntimeconfig.cache
+C:\Users\Arnout\Downloads\SI_ProjectManagementAPI\Common\obj\Debug\net6.0\ref\Common.dll
+C:\Users\Arnout\Downloads\SI_ProjectManagementAPI\Common\bin\Debug\net6.0\Common.xml
+C:\Users\Arnout\Downloads\SI_ProjectManagementAPI\Common\obj\Debug\net6.0\Common.xml

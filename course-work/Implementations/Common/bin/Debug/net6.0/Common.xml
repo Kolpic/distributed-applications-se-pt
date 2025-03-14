@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Common</name>
+    </assembly>
+    <members>
+        <member name="T:Common.Entities.Category">
+            <summary>
+            Represents a project category
+            </summary>
+        </member>
+        <member name="P:Common.Entities.Category.Id">
+            <summary>
+            The unique identifier for the category
+            </summary>
+        </member>
+        <member name="P:Common.Entities.Category.Name">
+            <summary>
+            The name of the category
+            </summary>
+        </member>
+        <member name="P:Common.Entities.Category.Description">
+            <summary>
+            The description of the category
+            </summary>
+        </member>
+        <member name="P:Common.Entities.Category.ProjectCategories">
+            <summary>
+            Projects associated with this category
+            </summary>
+        </member>
+        <member name="T:Common.Entities.Comment">
+            <summary>
+            Represents a comment on a project
+            </summary>
+        </member>
+        <member name="P:Common.Entities.Comment.Id">
+            <summary>
+            The unique identifier for the comment
+            </summary>
+        </member>
+        <member name="P:Common.Entities.Comment.Content">
+            <summary>
+            The content of the comment
+            </summary>
+        </member>
+        <member name="P:Common.Entities.Comment.ProjectId">
+            <summary>
+            The ID of the project this comment is associated with
+            </summary>
+        </member>
+        <member name="P:Common.Entities.Comment.UserId">
+            <summary>
+            The ID of the user who created this comment
+            </summary>
+        </member>
+        <member name="P:Common.Entities.Comment.CreatedAt">
+            <summary>
+            The date and time when the comment was created
+            </summary>
+        </member>
+        <member name="P:Common.Entities.Comment.Project">
+            <summary>
+            The project this comment is associated with
+            </summary>
+        </member>
+        <member name="P:Common.Entities.Comment.User">
+            <summary>
+            The user who created this comment
+            </summary>
+        </member>
+        <member name="T:Common.Entities.Project">
+            <summary>
+            Represents a project in the system
+            </summary>
+        </member>
+        <member name="P:Common.Entities.Project.Id">
+            <summary>
+            The unique identifier for the project
+            </summary>
+        </member>
+        <member name="P:Common.Entities.Project.OwnerId">
+            <summary>
+            The ID of the user who owns this project
+            </summary>
+        </member>
+        <member name="P:Common.Entities.Project.Title">
+            <summary>
+            The title of the project
+            </summary>
+        </member>
+        <member name="P:Common.Entities.Project.Description">
+            <summary>
+            The description of the project
+            </summary>
+        </member>
+        <member name="P:Common.Entities.Project.Owner">
+            <summary>
+            The user who owns this project
+            </summary>
+        </member>
+        <member name="P:Common.Entities.Project.ProjectCategories">
+            <summary>
+            The categories associated with this project
+            </summary>
+        </member>
+        <member name="P:Common.Entities.Project.Comments">
+            <summary>
+            The comments associated with this project
+            </summary>
+        </member>
+        <member name="T:Common.Entities.ProjectCategory">
+            <summary>
+            Represents a link between a project and a category (many-to-many relationship)
+            </summary>
+        </member>
+        <member name="P:Common.Entities.ProjectCategory.ProjectId">
+            <summary>
+            The ID of the project
+            </summary>
+        </member>
+        <member name="P:Common.Entities.ProjectCategory.CategoryId">
+            <summary>
+            The ID of the category
+            </summary>
+        </member>
+        <member name="P:Common.Entities.ProjectCategory.Project">
+            <summary>
+            The project associated with this relationship
+            </summary>
+        </member>
+        <member name="P:Common.Entities.ProjectCategory.Category">
+            <summary>
+            The category associated with this relationship
+            </summary>
+        </member>
+        <member name="T:Common.Entities.RefreshToken">
+            <summary>
+            Represents a refresh token for JWT authentication
+            </summary>
+        </member>
+        <member name="T:Common.Entities.RefreshToken.TokenStatus">
+            <summary>
+            Represents the status of a refresh token
+            </summary>
+        </member>
+        <member name="F:Common.Entities.RefreshToken.TokenStatus.Pending">
+            <summary>
+            Token is pending and can be used
+            </summary>
+        </member>
+        <member name="F:Common.Entities.RefreshToken.TokenStatus.Used">
+            <summary>
+            Token has been used and is no longer valid
+            </summary>
+        </member>
+        <member name="P:Common.Entities.RefreshToken.Id">
+            <summary>
+            The unique identifier for the refresh token
+            </summary>
+        </member>
+        <member name="P:Common.Entities.RefreshToken.UserId">
+            <summary>
+            The ID of the user this token is associated with
+            </summary>
+        </member>
+        <member name="P:Common.Entities.RefreshToken.Token">
+            <summary>
+            The token value
+            </summary>
+        </member>
+        <member name="P:Common.Entities.RefreshToken.Status">
+            <summary>
+            The current status of the token
+            </summary>
+        </member>
+        <member name="P:Common.Entities.RefreshToken.User">
+            <summary>
+            The user this token is associated with
+            </summary>
+        </member>
+        <member name="T:Common.Entities.User">
+            <summary>
+            Represents a user in the system
+            </summary>
+        </member>
+        <member name="P:Common.Entities.User.Id">
+            <summary>
+            The unique identifier for the user
+            </summary>
+        </member>
+        <member name="P:Common.Entities.User.Username">
+            <summary>
+            The username of the user
+            </summary>
+            <example>johndoe</example>
+        </member>
+        <member name="P:Common.Entities.User.Password">
+            <summary>
+            The password of the user
+            </summary>
+        </member>
+        <member name="P:Common.Entities.User.FirstName">
+            <summary>
+            The first name of the user
+            </summary>
+            <example>John</example>
+        </member>
+        <member name="P:Common.Entities.User.LastName">
+            <summary>
+            The last name of the user
+            </summary>
+            <example>Doe</example>
+        </member>
+        <member name="P:Common.Entities.User.IsAdmin">
+            <summary>
+            Indicates whether the user has administrator privileges
+            </summary>
+            <example>false</example>
+        </member>
+    </members>
+</doc>
